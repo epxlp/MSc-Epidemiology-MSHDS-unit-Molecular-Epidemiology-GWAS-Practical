@@ -26,7 +26,7 @@ srun --account=SSCM034564  --partition=teach_cpu  --time=3:00:00  --pty bash -i
 Copy the GWAS directory to your home space on bluecrystal
 
  ```bash
- cp -R /mnt/storage/private/mrcieu/training/mol_epi/gwas ~
+ cp -R /bp1/mrcieu1/training/mol_epi/gwas ~
 ```
 
 Check this has worked: 
@@ -41,7 +41,7 @@ tree gwas
 To avoid us having to keep typing full paths, we will set up shorter alias names for the key directories.
 
 ```bash
-datadir="/mnt/storage/private/mrcieu/training/genetic_epidemiology/GWAS/data"
+datadir="/bp1/mrcieu1/training/genetic_epidemiology/GWAS/data"
 scriptsdir="$HOME/gwas/scripts"
 outdir="$HOME/gwas/output"
 ```
@@ -71,7 +71,7 @@ is not human readable.
 We will load Plink using the following code (already included in the script provided):  
 
 ```bash
-module add apps/plink2
+module add apps/plink2/2.00a6LM
 ```
 
 
