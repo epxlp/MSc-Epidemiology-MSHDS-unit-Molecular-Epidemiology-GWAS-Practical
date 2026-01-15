@@ -19,7 +19,7 @@ Log into bluecrystal using PuTTY (for windows users) or with Terminal (for Mac u
 Run the following command to access a compute node:
 
 ```bash
-srun --account=SSCM034564  --partition=teach_cpu  --time=3:00:00  --pty bash -i
+srun --account=SSCM038684  --partition=teach_cpu  --time=3:00:00  --pty bash -i
 ```
 
 ### Directory set-up
