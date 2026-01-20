@@ -159,7 +159,7 @@ We want to filter the data to the following parameters:
 Look at the `qc.sh` script to see the suggested exclusions for this dataset. 
 
 ```bash
-head -20 ${scriptsdir}/qc.sh
+cat ${scriptsdir}/qc.sh
 ```
 
 **Run the `qc.sh` script to generate new ‘cleaned’ data files `geno_qc.bed` `.bim` `.fam`**
