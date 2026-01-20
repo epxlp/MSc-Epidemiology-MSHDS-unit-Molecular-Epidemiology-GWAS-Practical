@@ -97,7 +97,7 @@ You should see that the .fam contains 6 columns:
 wc -l ${datadir}/geno_unclean.fam
 ```
 
-You should see that the .fam file contains 8237 lines that correspond to 8237 individuals
+How many individuals does this dataset contain?
 
 ## Exercise 1b
 Look at the structure and the size of the geno_raw.bim file and see what each column
