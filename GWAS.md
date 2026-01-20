@@ -149,11 +149,6 @@ Notice whether phenotypes appear to be continuous or binary.
 ## Exercise 3 - Quality Control of data
 There are many steps to a good QC procedure (see Weale 2010. Quality control for genome-wide association studies. Methods in Molecular Biology 628:341-372). Here, we assume that related individuals and non-white Europeans have already been removed to proceed with the final steps of the QC.
 
-We want to filter the data to the following parameters:
-1. SNPs with more than 5% missing values removed
-2. Individuals with more than 5% missing values removed
-3. SNPs with allele frequency < 0.01 removed
-4. SNPs with Hardy Weinberg disequilibrium p value < 1e-6 removed
 
 
 Look at the `qc.sh` script to see the suggested exclusions for this dataset. 
@@ -161,6 +156,12 @@ Look at the `qc.sh` script to see the suggested exclusions for this dataset.
 ```bash
 cat ${scriptsdir}/qc.sh
 ```
+
+Match the following filters to the commands in the script (you will need to check the commands on the plink website):
+1. SNPs with more than 5% missing values removed
+2. Individuals with more than 5% missing values removed
+3. SNPs with allele frequency < 0.01 removed
+4. SNPs with Hardy Weinberg disequilibrium p value < 1e-6 removed
 
 **Run the `qc.sh` script to generate new ‘cleaned’ data files `geno_qc.bed` `.bim` `.fam`**
 
