@@ -1,5 +1,5 @@
 - Written by Lavinia Paternoster (l.paternoster@bristol.ac.uk)
-- with support from Charikleia Chatzigeorgiou (fb23004@bristol.ac.uk)
+
 # Practical : Genome-wide association study of BMI 
 
 ## Objectives
