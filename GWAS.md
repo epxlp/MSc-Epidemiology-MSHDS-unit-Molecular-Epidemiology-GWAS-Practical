@@ -97,7 +97,7 @@ You should see that the .fam contains 6 columns:
 wc -l ${datadir}/geno_unclean.fam
 ```
 
-How many individuals does this dataset contain?
+What does the number of rows in this file tell you?
 
 ## Exercise 1b
 Look at the structure and the size of the geno_raw.bim file and see what each column
@@ -120,7 +120,7 @@ The .bim file also contains 6 columns:
 wc -l ${datadir}/geno_unclean.bim
 ```
 
-You should see that the .bim file contains 463,080 lines that correspond to 463,080 SNPs
+What does the number of rows in this file tell you?
 
 
 ## Exercise 2 - Phenotypic information of the participants
