@@ -143,7 +143,7 @@ The phen.txt file contains 7 columns:
 6. CRP - C-reactive protein
 7. HT - Hypertension 
 
-phen.txt contains phenotypic information for 5 outcomes 
+Notice whether phenotypes appear to be continuous or binary.
 
 
 ## Exercise 3 - Quality Control of data
