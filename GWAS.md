@@ -260,7 +260,7 @@ EXTRA TASK - Can you find the relevant option in Plink?
 ```bash
 export R_LIBS="~/R_libs"
 mkdir ~/R_libs
-module add languages/R/4.1.2
+module add languages/R/4.5.1
 Rscript ${scriptsdir}/gwas_graphs.R ${outdir}/GWAS.BMI.glm.linear.add ${outdir}
 ```
 
