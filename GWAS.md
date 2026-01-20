@@ -228,7 +228,8 @@ chmod +x ${scriptsdir}/clean_gwas.sh
 ${scriptsdir}/clean_gwas.sh
 ```
 
-We'll come back and look at the output in part 2.
+We'll come back and look at the output in part 2. 
+Can you find this output and have a quick look at the format?
 
 ## End of GWAS practical part 1
 
@@ -253,7 +254,8 @@ We need to edit the GWAS output to get it ready for use in R, using this command
 ```bash
 awk 'NR==1 || /ADD/' ${outdir}/GWAS.BMI.glm.linear > ${outdir}/GWAS.BMI.glm.linear.add
 ```
-
+NB - we could have also told plink to only about those rows, so we could avoid this step.
+EXTRA TASK - Can you find the relevant option in Plink?
 
 ```bash
 export R_LIBS="~/R_libs"
