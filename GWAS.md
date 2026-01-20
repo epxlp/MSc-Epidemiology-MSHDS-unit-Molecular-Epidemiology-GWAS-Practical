@@ -188,7 +188,7 @@ ${scriptsdir}/qc.sh
 All the details for every analysis that is conducted with the use of Plink can be found at the corresponding .log file. Take a look at this file
 
 ```bash
-head -45 ${outdir}/geno_qc.log
+cat ${outdir}/geno_qc.log
 ```
 
 **_Question:_**
