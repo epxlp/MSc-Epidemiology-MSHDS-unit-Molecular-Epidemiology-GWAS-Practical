@@ -97,7 +97,7 @@ You should see that the .fam contains 6 columns:
 wc -l ${datadir}/geno_unclean.fam
 ```
 
-What does the number of rows in this file tell you?
+> What does the number of rows in this file tell you?
 
 ## Exercise 1b
 Look at the structure and the size of the geno_raw.bim file and see what each column
@@ -120,7 +120,7 @@ The .bim file also contains 6 columns:
 wc -l ${datadir}/geno_unclean.bim
 ```
 
-What does the number of rows in this file tell you?
+> What does the number of rows in this file tell you?
 
 
 ## Exercise 2 - Phenotypic information of the participants
@@ -143,7 +143,7 @@ The phen.txt file contains 7 columns:
 6. CRP - C-reactive protein
 7. HT - Hypertension 
 
-Notice whether phenotypes appear to be continuous or binary.
+> Notice whether phenotypes appear to be continuous or binary.
 
 
 ## Exercise 3 - Quality Control of data
@@ -157,7 +157,7 @@ Look at the `qc.sh` script to see the suggested exclusions for this dataset.
 cat ${scriptsdir}/qc.sh
 ```
 
-Match the following filters to the commands in the script (you will need to check the commands on the plink website):
+> Match the following filters to the commands in the script (you will need to check the commands on the plink website):
 1. SNPs with more than 5% missing values removed
 2. Individuals with more than 5% missing values removed
 3. SNPs with allele frequency < 0.01 removed
@@ -229,7 +229,7 @@ ${scriptsdir}/clean_gwas.sh
 ```
 
 We'll come back and look at the output in part 2. 
-Can you find this output and have a quick look at the format?
+> Can you find this output and have a quick look at the format?
 
 ## End of GWAS practical part 1
 
@@ -256,7 +256,7 @@ awk 'NR==1 || /ADD/' ${outdir}/GWAS.BMI.glm.linear > ${outdir}/GWAS.BMI.glm.line
 ```
 NB - we could have also told plink to only about those rows, so we could avoid this step.
 
-EXTRA TASK - Can you find the relevant option in Plink?
+> EXTRA TASK - Can you find the relevant option in Plink?
 
 
 We will now run an R script that generates Manhattan and QQplots from the Plink output.
