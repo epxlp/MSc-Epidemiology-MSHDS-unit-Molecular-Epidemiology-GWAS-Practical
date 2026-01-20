@@ -314,7 +314,9 @@ grep -v NA bmi_clean16.BMI.glm.linear.add | sort -g -k 12 | head
 
 > How might we go about confirming this finding?
 
-> Go to OpenTargets website `https://genetics.opentargets.org/`, enter this SNP name and see what you can find out about this variant
+> Go to OpenTargets website `https://platform.opentargets.org/`, enter this SNP name and see what you can find out about this variant
+> Also look at `gpmap.opengwas.io`
+> From the information these two tools provide, which gene do you think is implicated?
 
 ## End of practical
 
