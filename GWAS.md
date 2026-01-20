@@ -255,7 +255,13 @@ We need to edit the GWAS output to get it ready for use in R, using this command
 awk 'NR==1 || /ADD/' ${outdir}/GWAS.BMI.glm.linear > ${outdir}/GWAS.BMI.glm.linear.add
 ```
 NB - we could have also told plink to only about those rows, so we could avoid this step.
+
 EXTRA TASK - Can you find the relevant option in Plink?
+
+
+We will now run an R script that generates Manhattan and QQplots from the Plink output.
+
+Take a look at the R script so you can broadly understand what it is doing and then run the following code to run the R script.
 
 ```bash
 export R_LIBS="~/R_libs"
@@ -263,6 +269,7 @@ mkdir ~/R_libs
 module add languages/R/4.5.1
 Rscript ${scriptsdir}/gwas_graphs.R ${outdir}/GWAS.BMI.glm.linear.add ${outdir}
 ```
+You can use `ls` to see the files that have been generated, but you'll need to open these on your local machine to view them.
 
 ## Tranfering data from bluecrystal to your local disk in order to view plots 
 ### Transferring files to a windows machine
