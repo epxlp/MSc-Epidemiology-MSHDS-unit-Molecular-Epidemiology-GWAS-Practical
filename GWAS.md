@@ -77,10 +77,7 @@ module add apps/plink2
 
 ## Exercise 1a
 
-Open a linux command line, navigate to the data directory and use appropriate linux
-commands to look at the files:
-
-Look at the structure and size of the geno_raw.fam file
+Look at the structure and size of the .fam file
 
 
 ```bash
