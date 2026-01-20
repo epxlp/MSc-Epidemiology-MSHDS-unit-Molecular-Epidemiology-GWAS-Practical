@@ -71,7 +71,7 @@ is not human readable.
 We will load Plink using the following code (already included in the script provided):  
 
 ```bash
-module add apps/plink2/2.00a6LM
+module add apps/plink2
 ```
 
 
