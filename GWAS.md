@@ -147,8 +147,7 @@ The phen.txt file contains 7 columns:
 
 
 ## Exercise 3 - Quality Control of data
-There are many steps to a good QC procedure (see Weale 2010. Quality control for genome-wide association studies. Methods in Molecular Biology 628:341-372). Here, we assume that related individuals and non-white Europeans have already been removed to proceed with the final steps of the QC.
-
+There are many steps to a good QC procedure (see Weale 2010. Quality control for genome-wide association studies. Methods in Molecular Biology 628:341-372). You always need to consider what you will do about structure in your data,  you can either remove individuals or model the structure in the data. Here, we will run a simple GWAS assuming no large-scale structure. Related individuals and non-Europeans have already been removed. You will proceed with the final steps of the QC.
 
 
 Look at the `qc.sh` script to see the suggested exclusions for this dataset. 
